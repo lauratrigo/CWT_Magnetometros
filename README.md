@@ -1,4 +1,4 @@
-# 🌍 Análise CWT de Variações Magnetométricas (ΔH) — Agosto 2017
+# 🌍 Análise CWT de Variações Magnetométricas (ΔH) - Agosto 2017
 
 Este repositório contém scripts MATLAB desenvolvidos para realizar a **Análise Wavelet Contínua (CWT)** de dados de **magnetômetros** coletados em diferentes estações brasileiras, com passo temporal de **5 minutos**, no período de **01/08/2017 a 31/08/2017**. O objetivo é estudar a variabilidade temporal e periodicidades de **variações do campo magnético horizontal (ΔH)**, identificando padrões e perturbações geomagnéticas.
 
@@ -39,11 +39,9 @@ cwt_magnetometro/
 │ ├── eus_magnetometro.csv
 │ ├── slz_magnetometro.csv
 │ └── vss_magnetometro.csv
-│
 ├── codigo_cwt_magnetometro.m # Script principal de análise
 └── README.md # Este arquivo
 ```
-
 
 ---
 
@@ -74,17 +72,17 @@ O script irá gerar **1 gráfico CWT por estação**, mostrando ΔH em função 
 
 Os arquivos `.csv` contêm:
 
-- **Hour** — hora da medição
-- **dH** — variação horizontal do campo magnético
+- **Hour** - hora da medição
+- **dH** - variação horizontal do campo magnético
 
 **Estações analisadas:**
 
-- ARA — Araguatins (TO)
-- CBA — Cachoeira Paulista (SP)
-- CXP — Campos (RJ)
-- EUS — Eusébio (CE)
-- SLZ — São Luís (MA)
-- VSS — Vassouras (RJ)
+- ARA - Araguatins (TO)
+- CBA - Cachoeira Paulista (SP)
+- CXP - Campos (RJ)
+- EUS - Eusébio (CE)
+- SLZ - São Luís (MA)
+- VSS - Vassouras (RJ)
 
 **Período:** 01/08/2017 a 31/08/2017, com intervalo de 5 minutos.
 
@@ -92,12 +90,12 @@ Os arquivos `.csv` contêm:
 
 ## 📈 Gráficos Gerados
 
-<div align="center"> <h4><strong>ARA — Araguatins (TO)</strong></h4> <img src="images/ARA.png" alt="CWT ΔH ARA" style="width:80%; max-width:900px;"> 
-</div> <div align="center"> <h4><strong>CBA — Cachoeira Paulista (SP)</strong></h4> <img src="images/CBA.png" alt="CWT ΔH CBA" style="width:80%; max-width:900px;"> 
-</div> <div align="center"> <h4><strong>CXP — Campos (RJ)</strong></h4> <img src="images/CXP.png" alt="CWT ΔH CXP" style="width:80%; max-width:900px;"> 
-</div> <div align="center"> <h4><strong>EUS — Eusébio (CE)</strong></h4> <img src="images/EUS.png" alt="CWT ΔH EUS" style="width:80%; max-width:900px;"> </div> 
-<div align="center"> <h4><strong>SLZ — São Luís (MA)</strong></h4> <img src="images/SLZ.png" alt="CWT ΔH SLZ" style="width:80%; max-width:900px;"> </div> 
-<div align="center"> <h4><strong>VSS — Vassouras (RJ)</strong></h4> <img src="images/VSS.png" alt="CWT ΔH VSS" style="width:80%; max-width:900px;"> </div>
+<div align="center"> <h4><strong>ARA - Araguatins (TO)</strong></h4> <img src="images/ARA.png" alt="CWT ΔH ARA" style="width:80%; max-width:900px;"> 
+</div> <div align="center"> <h4><strong>CBA - Cachoeira Paulista (SP)</strong></h4> <img src="images/CBA.png" alt="CWT ΔH CBA" style="width:80%; max-width:900px;"> 
+</div> <div align="center"> <h4><strong>CXP - Campos (RJ)</strong></h4> <img src="images/CXP.png" alt="CWT ΔH CXP" style="width:80%; max-width:900px;"> 
+</div> <div align="center"> <h4><strong>EUS - Eusébio (CE)</strong></h4> <img src="images/EUS.png" alt="CWT ΔH EUS" style="width:80%; max-width:900px;"> </div> 
+<div align="center"> <h4><strong>SLZ - São Luís (MA)</strong></h4> <img src="images/SLZ.png" alt="CWT ΔH SLZ" style="width:80%; max-width:900px;"> </div> 
+<div align="center"> <h4><strong>VSS - Vassouras (RJ)</strong></h4> <img src="images/VSS.png" alt="CWT ΔH VSS" style="width:80%; max-width:900px;"> </div>
 
 ---
 
