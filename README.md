@@ -101,7 +101,7 @@ Os arquivos `.csv` contêm:
 
 ## 🤝 Agradecimentos
 
-Este projeto foi desenvolvido como parte de estudos em **Geomagnetismo e Física Espacial**, com suporte de colegas na coleta e validação dos dados das estações magnetométricas.
+Este projeto foi desenvolvido como parte de um trabalho de pesquisa em Física Espacial no IP&D/UNIVAP, com apoio do grupo de estudos em ionosfera e geomagnetismo.
 
 ---
 
